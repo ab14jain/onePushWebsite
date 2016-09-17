@@ -1,0 +1,164 @@
+﻿body {
+    background-image: url("../\image/\seigaiha.png");
+}
+
+.top-header {
+    border: 1px solid black;
+    height: 60px;
+    padding: 3px;
+    width: 100%;
+}
+
+.logo {
+    float:left;
+    margin-right:10px;
+    padding :5px;
+    width:2%;
+}
+
+.heading {
+    float:left;
+    margin-right:10px;
+    padding :5px;
+    width:60%;
+}
+
+    .heading h2 {
+        margin:0  !important;
+        float:left;
+        font-size: 25px;
+        font-family: cursive;
+    }
+
+    .heading p {
+        margin:15px  !important;
+        float:left;
+        font-size: 15px;
+        font-family: cursive;
+    }
+
+.loading {
+    float:left;
+    display:none;    
+}
+
+#search {
+	width: 15%;
+	margin-left: 2%;
+    margin: 1%;    
+    padding: 5px;
+    border-radius: 5px !important; 
+    outline: none;
+}
+
+.textbox{
+	margin: 15px;
+	padding: 5px;
+	border-radius: 5px !important;
+	outline: none;
+	height: 20px;
+}
+
+
+.result-count {
+    float:right;
+    border: 2px solid grey;
+    border-radius : 8px;
+    margin:10px;
+    width:30%;
+    display:none;
+}
+
+    .result-count p {
+        margin:0  !important;
+        padding:5px;
+        font-size: 15px;
+    font-family: cursive;
+    }
+
+.result {
+    border:2px solid grey;
+    margin:10px;
+    border-radius:5px;
+    padding:5px;
+}
+
+.container {
+    /*border:1px solid black;*/
+    width:79%;
+    float:left;     
+}
+
+.right {
+    
+    width: 20%;
+    float: left;
+    height: auto;
+    display: initial !important;
+    /*border: 1px solid black;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;*/
+}
+
+.rate-header {
+    border:2px solid grey;
+    margin:10px;
+    border-radius:5px;
+    padding:7px;
+    font-size: 18px;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.stars-header {
+    border:2px solid grey;
+    margin:10px;
+    border-radius:5px;
+    padding:7px;
+    font-size: 18px;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+#title-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: cornflowerblue;
+    font-family: monospace;
+}
+
+#planguage p {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: monospace;
+}
+
+#star-slider {
+    width: 80%;
+    margin: 10%;
+    margin-top: 5%;
+    color: cadetblue;
+}
+
+#range-level {
+    margin-left: 125px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+#rate-limit {
+    width: 80%;
+    margin: 10%;
+    margin-top: 5%;
+    color: cadetblue;
+}
+
+#rate-level {
+    margin-left: 125px;
+    font-family: cursive;
+    font-size: 20px;
+}
